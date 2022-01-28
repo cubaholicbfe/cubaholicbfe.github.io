@@ -13,7 +13,7 @@
     var status = document.getElementById("status");
 
     if (str1 == "Пес1" && str2 == "Пес2" && str3 == "Пес3" && str4 == "Пес4" && str5 == "Пес5") 
-	window.open("https://www.youtube.com/watch?v=BZkJ9J9ORmA");
+	location.href = ("https://www.youtube.com/watch?v=BZkJ9J9ORmA");
     else window.alert("Что-то ты накосячил");
    }
   </script>
@@ -22,15 +22,15 @@
   <form action="">
    <p>Введите все ваши подсказки</p>
    <p>Подсказка 1:</p>
-   <p><input type="text" id="answer1"> <span id="status"></span></p>
+   <p><input type="text" id="answer1"></p>
    <p>Подсказка 2:</p>
-   <p><input type="text" id="answer2"> <span id="status"></span></p>
+   <p><input type="text" id="answer2"></p>
    <p>Подсказка 3:</p>
-   <p><input type="text" id="answer3"> <span id="status"></span></p>
+   <p><input type="text" id="answer3"></p>
    <p>Подсказка 4:</p>
-   <p><input type="text" id="answer4"> <span id="status"></span></p>
+   <p><input type="text" id="answer4"></p>
    <p>Подсказка 5:</p>
-   <p><input type="text" id="answer5"> <span id="status"></span></p>
+   <p><input type="text" id="answer5"></p>
    <p><input type="button" value="Что же дальше?" onclick="GetSurpise()"></p>
   </form>
  </body>
