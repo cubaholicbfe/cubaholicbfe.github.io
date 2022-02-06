@@ -1,0 +1,25 @@
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Вопрос 3</title>
+  <script>
+   function Check() {
+    var str1 = document.getElementById("answer1").value.toUpperCase();
+
+
+    if ( str1 == "КСЕНИЯ" || str1 == "КСЮША" || str1 == "КСЮ" ) 
+	location.href = ("4_fghrytkmghslkg.html");
+    else window.alert("Ну ты чего! Попробуй еще раз, смотри внимательнее!");
+   }
+  </script>
+ </head> 
+ <body>
+   <p>Отлично! Теперь посложнее.</p>
+   <p>Чьи это губы?</p>
+   <img src="3_gubi.jpg" alt="Здесь должна быть картинка">
+   <p><input type="text" id="answer1"></p>
+   <p><input type="button" value="Проверить!" onclick="Check()"></p>
+ </body>
+</html>
