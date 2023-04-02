@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>С днем рождения!</title>
+  <script>
+   function Check() {
+    var str1 = document.getElementById("answer1").value.toUpperCase();
+    if ( str1 == 'КУАЛА' || str1 == 'КУАЛА ЛУМПУР' || str1 == 'КУАЛА-ЛУМПУР' ) 
+	location.href = ("4_misha.html");
+    else window.alert("Если ты не злоумышленник, то попробуй еще раз, иначе вали со страницы)");
+   }
+  </script>
+ </head> 
+ <body>
+   <p>Контрольный вопрос для защиты от злоумышленников: в каком городе ты находился 3 марта?</p>
+
+   <img src="3_kuala.jpg" alt="Здесь должна быть картинка">
+   <p><input type="text" id="answer1"></p>
+   <p><input type="button" value="Проверить!" onclick="Check()"></p>
+ </body>
+</html>

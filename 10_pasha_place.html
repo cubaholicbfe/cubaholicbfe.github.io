@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>С днем рождения!</title>
+  <script>
+   function Check() {
+    var str1 = document.getElementById("answer1").value.toUpperCase();
+    if ( str1 == 'БАНАНА БИЧ' || str1 == 'БАНАНА' || str1 == 'BANANA BEACH' || str1 == 'BANANA'  ) 
+	location.href = ("11_wash.html");
+    else window.alert("Неверно! Попробуй еще раз");
+   }
+  </script>
+ </head> 
+ <body>
+   <p>Верно! Вон он в кепке сидит на скалах. А вот что за место, в котором было сделано это фото? </p>
+   <p></p>
+   <img src="10_pasha.jpg" alt="Здесь должна быть картинка">
+   <p><input type="text" id="answer1"></p>
+   <p><input type="button" value="Проверить!" onclick="Check()"></p>
+ </body>
+</html>
